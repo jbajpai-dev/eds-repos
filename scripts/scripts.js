@@ -128,6 +128,7 @@ export function decorateMain(main) {
  */
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
+  alert("changed");
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
